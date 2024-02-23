@@ -1,0 +1,19 @@
+.container {
+  height: 250px;
+  width: 90%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  padding: 20px 0;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 20px;
+}
+.container div {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+.heading {
+  margin-bottom: 15px;
+  font-size: 70px;
+}
