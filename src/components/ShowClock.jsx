@@ -8,6 +8,10 @@ export default function ShowClock() {
     const timerId = setInterval(() => {
       setTime(new Date());
     }, 1000);
+
+    return () => {
+      clearInterval(timerId);
+    };
   }, []);
 
   return (
